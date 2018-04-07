@@ -37,6 +37,8 @@ header
 }
 .header-button
 {
+	display: inline-block;
+	text-decoration: none;
     font-size: 18px;
     font-weight: 700;
 
@@ -174,7 +176,9 @@ footer
 
 .footer-button
 {
+	text-decoration: none;
     font-size: 18px;
+    color: #ffffff;
 
     display: inline-block;
 
@@ -187,6 +191,7 @@ footer
 .footer-cta-block
 {
     text-align: center;
+    
 }
 .footer-cta
 {
