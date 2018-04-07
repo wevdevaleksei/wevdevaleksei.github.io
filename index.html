@@ -11,6 +11,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
 
@@ -21,14 +22,14 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-7">
-			<img class="header-img" src="img/main-img.png" alt="Monitor">
+			<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Monitor">
 		</div>
 		<!-- /.col-7 -->
 		<div class="col-lg-5">
-			<p class="header-pretitle">Веб-разработчик</p>
-			<h1 class="header-title"> Алексей Жикин </h1>
-			<p class="header-subtitle"> Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
-			<div class="header-button-block">
+			<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s" >Веб-разработчик</p>
+			<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s" > Алексей Жикин </h1>
+			<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s" > Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
+			<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
 				<a target="blank" href="https://vk.me/klj0pa" class="header-button"> Связаться </a>
 				<small>*Это бесплатно</small>
 			</div>
@@ -43,7 +44,7 @@
 	<section class="portfolio">
 
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block wow fadeIn ">
 			<h2 class="portfolio-title"> Портфолио</h2>
 			<p class="portfolio-subtitle"> Мои работы </p>
 			<div class="row">
@@ -53,7 +54,7 @@
 							<img src="img/portfolio-img-1.jpeg" alt="Газпром">
 							<h3>внутренний университет «Газпром нефти»</h3>
 							<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов и экспертов....</p>
-							<a href="#">Смотреть работу</a>
+							<a href="https://youtu.be/dQw4w9WgXcQ">Смотреть работу</a>
 							</div>
 					</div>
 						
@@ -62,7 +63,7 @@
 							<img src="img/portfolio-img-2.jpeg" alt="МИР">
 							<h3>Сайт платежной системы «Мир»</h3>
 							<p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
-							<a href="#">Смотреть работу</a>
+							<a href="https://youtu.be/dQw4w9WgXcQ">Смотреть работу</a>
 							</div>
 
 					</div>
@@ -89,10 +90,10 @@
 
 						<p>Подпишитесь:</p>
 
-						<a target="blank" href="https://www.facebook.com/aleksei.zhikin"><img src="img/socials/facebook-logo-button.png" alt="facebook"></a>
-						<a  href="#"><img src="img/socials/telegram-symbol.png" alt="telegram"></a>
-						<a target="blank" href="https://vk.com/klj0pa"><img src="img/socials/vk-social-logotype.png" alt="vk"></a>
-						<a target="blank" href="https://www.youtube.com/channel/UCA7LtJ5ofeSWQDv3wwoYTsA?view_as=subscriber"><img src="img/socials/youtube-symbol.png" alt="youtube"></a>
+						<a target="blank" href="https://www.facebook.com/aleksei.zhikin"><img class="wow bounceInDown"  data-wow-delay="0.1s"  src="img/socials/facebook-logo-button.png" alt="facebook"></a>
+						<a  href="#"><img class="wow bounceInDown"  data-wow-delay="0.2s"  src="img/socials/telegram-symbol.png" alt="telegram"></a>
+						<a target="blank" href="https://vk.com/klj0pa"><img class="wow bounceInDown"  data-wow-delay="0.3s" src="img/socials/vk-social-logotype.png" alt="vk"></a>
+						<a target="blank" href="https://www.youtube.com/channel/UCA7LtJ5ofeSWQDv3wwoYTsA?view_as=subscriber"><img class="wow bounceInDown" data-wow-delay="0.4s"  src="img/socials/youtube-symbol.png" alt="youtube"></a>
 
 					</div>
 					
@@ -107,5 +108,10 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/wow.min.js" > </script>
+	<script>
+		new WOW().init();
+	</script>
+
 </body>
 </html>

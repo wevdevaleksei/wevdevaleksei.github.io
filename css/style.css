@@ -49,6 +49,16 @@ header
     border-radius: 50px;
     background-color: #fff;
     box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, .83);
+    -webkit-transition: 0.2s;
+    	-o-transition: 0.2s;
+    	transition: 0.2s;	
+}
+
+.header-button:hover 
+{
+	box-shadow: none;
+	text-decoration: none;
+
 }
 header small
 {
@@ -187,6 +197,15 @@ footer
     border: 1px solid #fff;
     border-radius: 24px;
     background-color: transparent;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.footer-button:hover
+{
+	text-decoration: none;
+	background-color: #fff;
+	color: #3a7df;
 }
 .footer-cta-block
 {
